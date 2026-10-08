@@ -1,0 +1,78 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.palette-container, .comparison-section {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.swatches-wrapper, .diff-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.color-box, .test-card {
+    width: 170px;
+    height: 100px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 1. Named Color */
+.name-box {
+    background-color: teal;
+}
+
+/* 2. HEX Color */
+.hex-box {
+    background-color: #2b580c;
+}
+
+/* 3. RGB Color */
+.rgb-box {
+    background-color: rgb(44, 120, 180);
+}
+
+/* 4. RGBA Color with alpha */
+.rgba-box {
+    background-color: rgba(155, 38, 176, 0.7);
+}
+
+/* المقارنة بين Opacity و RGBA */
+.test-card {
+    width: 230px;
+    height: 120px;
+    color: #ffffff;
+}
+
+/* استخدام خاصية الـ Opacity تؤثر على الصندوق والنص بالكامل */
+.opacity-card {
+    background-color: #c92a2a;
+    opacity: 0.5;
+}
+
+/* استخدام RGBA للخلفية وحدها يبقي النص واضحاً 100% */
+.rgba-card {
+    background-color: rgba(201, 42, 42, 0.5);
+}

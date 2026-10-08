@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: Right;
+    gap: 30px;
+    padding: 40px;
+    background-color: #efeff3;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #0b0fe7;
+}
+
+
+.rectangle {
+    width: 150px;
+    height: 80px;
+    background-color: #0da2cf;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #78dacc;
+    border-radius: 50%;
+}
+
+
+.pill {
+    width: 160px;
+    height: 70px;
+    background-color: #100430;
+    border-radius: 50px;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #598cb6;
+}
