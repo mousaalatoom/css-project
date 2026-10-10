@@ -43,7 +43,6 @@ body {
     box-sizing: content-box; 
 }
 
-/* 2. Border-Box
 .alternative-model {
     background-color: #2b8a3e;
     box-sizing: border-box;
