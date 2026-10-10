@@ -38,41 +38,31 @@ h1, h2 {
     text-align: center;
     padding: 10px;
 }
-
-/* 1. Named Color */
 .name-box {
     background-color: teal;
 }
-
-/* 2. HEX Color */
 .hex-box {
     background-color: #2b580c;
 }
-
-/* 3. RGB Color */
 .rgb-box {
     background-color: rgb(44, 120, 180);
 }
 
-/* 4. RGBA Color with alpha */
 .rgba-box {
     background-color: rgba(155, 38, 176, 0.7);
 }
 
-/* المقارنة بين Opacity و RGBA */
 .test-card {
     width: 230px;
     height: 120px;
     color: #ffffff;
 }
 
-/* استخدام خاصية الـ Opacity تؤثر على الصندوق والنص بالكامل */
 .opacity-card {
     background-color: #c92a2a;
     opacity: 0.5;
 }
 
-/* استخدام RGBA للخلفية وحدها يبقي النص واضحاً 100% */
 .rgba-card {
     background-color: rgba(201, 42, 42, 0.5);
 }
